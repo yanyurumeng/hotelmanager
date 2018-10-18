@@ -1,0 +1,19 @@
+body{
+background: url(../images/link.jpg);
+
+}
+#table{
+	background: url(../images/tablebg.jpg);
+	background-size: cover;
+	width:1000px;
+	height: 300px;
+	
+}
+#p span a{
+	font-size: 30px;
+	color: blue; 
+
+}
+#table tr a{
+	color: blue; 
+}
