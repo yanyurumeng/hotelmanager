@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>左边导航栏</title>
+		<style>
+			ul{
+				list-style: none
+			}
+			li{
+				line-height: 50px;
+			}
+			 li a{
+				/*文本样式 ：  下划线  上划线*/
+				text-decoration: none;
+			}
+			 li a:hover{
+			 	color: yellow;
+				/*background-color: yellow;*/
+				/*所选区域  设定为  块元素*/
+				/*display: block;*/
+			}
+		</style>
+	</head>
+	<body  background="img/ho1.jpg">
+		
+		<ul>
+			<li><a href="jianjie.jsp"target="contentFrame">酒店简介</a></li>
+			<li><a href="UserPageServlet?action=getALL" target="contentFrame">用户信息</a></li>
+			<li><a href="#">日志系统</a></li>
+			<li><a href="login.jsp" target = "_balnk">退出</a></li>
+			
+		</ul>
+		
+		
+	</body>
+</html>

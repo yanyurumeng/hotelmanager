@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+    <servlet>
+        <servlet-name>ImageServlet</servlet-name>
+        <servlet-class>com.qdlg.servlet.ImageServlet</servlet-class>
+	</servlet>
+  
+  	<servlet-mapping>
+	        <servlet-name>ImageServlet</servlet-name>
+	        <url-pattern>/ImageServlet</url-pattern>
+	</servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.qdlg.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ZhuCeServlet</servlet-name>
+    <servlet-class>com.qdlg.servlet.ZhuCeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserPageServlet</servlet-name>
+    <servlet-class>com.qdlg.servlet.UserPageServlet</servlet-class>
+  </servlet>
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/UserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ZhuCeServlet</servlet-name>
+    <url-pattern>/ZhuCeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserPageServlet</servlet-name>
+    <url-pattern>/UserPageServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

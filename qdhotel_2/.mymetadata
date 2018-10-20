@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="qdhotel"
+  id="myeclipse.1531701629005"
+  context-root="/qdhotel"
+  j2ee-spec="5.0"
+  archive="qdhotel.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
